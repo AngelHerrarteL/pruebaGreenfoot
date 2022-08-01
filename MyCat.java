@@ -14,6 +14,7 @@ public class MyCat extends Cat
     public void act()
     {
         final int sleepDuration = 2;
+        this.sleep(sleepDuration); //durmamos un poquito
         
         if (this.isAlone() && this.isSleepy()) {
             this.sleep(sleepDuration);
